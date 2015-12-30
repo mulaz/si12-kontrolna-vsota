@@ -21,7 +21,7 @@ print "starting ponder: $ponder\n";
 $sum=0;
 
 foreach $num (@nums) {
-    print "multiplying num $num with $ponder and sum is ";
+    print "multiplying num $num with $ponder and sum is now ";
     $sum+=$num*$ponder;
     $ponder--;
     print "$sum \n";
